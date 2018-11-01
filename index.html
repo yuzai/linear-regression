@@ -1,0 +1,90 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h3>TensorFlow.js: Fitting a curve to synthetic data</h3>
+        <style>
+            body{
+                padding:50px;
+            }
+            .plots{
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            #data,#random,#trained,#data2,#data3,#data4,#data5,#random2,#random3,#random4,#random5,#trained2,#trained3,#trained4,#trained5{
+                margin:30px;
+            }
+            .caption{
+                font-weight:bold;
+            }
+            .coeff{
+                font-weight: normal;
+            }
+        </style>
+        <div class='plots'>
+            <div id='data'>
+                <div class='caption'>原始数据（人造）y=a*x^3+b*x^2+c*x+d</div>
+                <div class='plot'></div>
+            </div>
+            <div id='random'>
+                <div class='caption'>训练前的拟合曲线（随机参数）</div>
+                <div class='plot'></div>
+            </div>
+            <div id='trained'>
+                <div class='caption'>训练后的拟合曲线（训练后参数）</div>
+                <div class='plot'></div>
+                <div class='loss'>
+            </div>
+        </div>
+        <div class='plots'>
+            <div id='data3'>
+                <div class='caption'>原始数据（人造）y=a*x^3+b*x^2+c*x+d</div>
+                <div class='plot'></div>
+            </div>
+            <div id='random3'>
+                <div class='caption'>训练前的拟合曲线（随机参数）</div>
+                <div class='plot'></div>
+            </div>
+            <div id='trained3'>
+                <div class='caption'>训练后的拟合曲线（训练后参数）</div>
+                <div class='plot'></div>
+                <div class='loss'>
+            </div>
+        </div>
+
+        <div class='plots'>
+            <div id='data4'>
+                <div class='caption'>原始数据（人造）y=e*x^4+a*x^3+b*x^2+c*x+d</div>
+                <div class='plot'></div>
+            </div>
+            <div id='random4'>
+                <div class='caption'>训练前的拟合曲线（随机参数）</div>
+                <div class='plot'></div>
+            </div>
+            <div id='trained4'>
+                <div class='caption'>训练后的拟合曲线（训练后参数）</div>
+                <div class='plot'></div>
+                <div class='loss'></div>
+            </div>
+        </div>
+        <div class='plots'>
+            <div id='data5'>
+                <div class='caption'>原始数据（人造）y=e*x^4+a*x^3+b*x^2+c*x+d</div>
+                <div class='plot'></div>
+            </div>
+            <div id='random5'>
+                <div class='caption'>训练前的拟合曲线（随机参数）</div>
+                <div class='plot'></div>
+            </div>
+            <div id='trained5'>
+                <div class='caption'>训练后的拟合曲线（训练后参数）</div>
+                <div class='plot'></div>
+                <div class='loss'>
+            </div>
+        </div>
+        <script src="index_oop.js"></script>
+    </body>
+
+</html>
