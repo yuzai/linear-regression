@@ -3,6 +3,7 @@
 
 ### 运行方法
 nbm i 
+nbm i -g parcel
 nbm run watch
 
 ### more
